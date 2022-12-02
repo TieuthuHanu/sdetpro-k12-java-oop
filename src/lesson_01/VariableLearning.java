@@ -9,5 +9,13 @@ public class VariableLearning {
 
         short myShortNum = 128;
         System.out.println(Short.MAX_VALUE);
+
+        // snake_case, camelCase
+        int myNum = 18;
+        int my_num = -18;
+        long myLongNum = 10L;
+
+        float myFloatNum = 3.14f; // bat buoc phai co f/F cho kieu float
+        double myDoubleNum = 3.14;
     }
 }
