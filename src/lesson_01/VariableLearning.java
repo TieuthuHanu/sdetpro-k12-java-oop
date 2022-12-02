@@ -17,5 +17,7 @@ public class VariableLearning {
 
         float myFloatNum = 3.14f; // bat buoc phai co f/F cho kieu float
         double myDoubleNum = 3.14;
+
+        final int MY_CONSTANT = 123;
     }
 }
