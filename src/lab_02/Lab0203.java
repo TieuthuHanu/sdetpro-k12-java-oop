@@ -8,12 +8,12 @@ public class Lab0203 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please enter your height (m) : ");
-        double height = scanner.nextDouble();
+        float height = scanner.nextFloat();
 
         System.out.print("Please enter your weight (kg) : ");
-        double weight = scanner.nextDouble();
+        float weight = scanner.nextFloat();
 
-        double bmi = weight / (height * 2);
+        float bmi = weight / (height * 2);
 
         if(bmi <= 18.5) {
             System.out.printf("BMI is %.2f ---> Underweight\n", bmi);
