@@ -15,7 +15,5 @@ public class ForLoopLearning {
             System.out.println(maxNum);
         }
 
-        // Unreachable statement
-        System.out.println("Hello");
     }
 }
