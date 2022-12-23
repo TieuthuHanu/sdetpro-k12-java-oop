@@ -16,7 +16,7 @@ public class DoWhileLoop {
             int userInput = sc.nextInt();
 
             if (userInput == randomNumber) {
-                System.out.println("You are the winner!");
+                System.out.println("WINNER!!!");
                 break;
             }
 
