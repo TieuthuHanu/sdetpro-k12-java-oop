@@ -16,7 +16,10 @@ public class Lab0303 {
                     array[j] = temp;
                 }
             }
-            System.out.print(array[i] + " ");
+        }
+
+        for (int value: array) {
+            System.out.print(value + " ");
         }
     }
 }

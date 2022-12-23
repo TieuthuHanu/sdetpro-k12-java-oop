@@ -27,8 +27,8 @@ public class Lab0304 {
             mergedArray[k++] = array2[j++];
         }
 
-        for (int index = 0; index < mergedArray.length; index++) {
-            System.out.print(mergedArray[index] + " ");
+        for (int value: mergedArray) {
+            System.out.print(value + " ");
         }
     }
 }
