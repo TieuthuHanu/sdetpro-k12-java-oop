@@ -10,6 +10,8 @@ import java.util.List;
 public class AnimalFlyController {
 
     public static void result(List<AnimalWithFly> animalList) {
+
+        // Add flyable animal to list
         List<AnimalWithFly> animalFlyableList = new ArrayList<>();
         for (AnimalWithFly animal : animalList) {
             if (animal.isFlyable())
@@ -17,12 +19,13 @@ public class AnimalFlyController {
         }
         System.out.println(animalFlyableList);
 
+        // Fastest flyable animal will win
         String winner = "";
-        int max = animalFlyableList.get(0).getSpeed();
+        int maxSpeed = animalFlyableList.get(0).getSpeed();
 
         for (AnimalWithFly animal : animalFlyableList) {
-            if (animal.getSpeed() >= max) {
-                max = animal.getSpeed();
+            if (animal.getSpeed() >= maxSpeed) {
+                maxSpeed = animal.getSpeed();
                 winner = animal.getName();
             }
         }
