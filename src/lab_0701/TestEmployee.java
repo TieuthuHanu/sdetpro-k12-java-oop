@@ -7,6 +7,6 @@ public class TestEmployee {
 
     public static void main(String[] args) {
         List<Employee> employeeList = new ArrayList<>();
-        Employee nhu = new FullTimeEmployee()
+        Employee nhu = new FullTimeEmployee();
     }
 }
