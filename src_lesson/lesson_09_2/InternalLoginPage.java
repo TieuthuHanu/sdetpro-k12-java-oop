@@ -1,4 +1,4 @@
-package lesson_0902;
+package lesson_09_2;
 
 public class InternalLoginPage extends LoginPage {
 

@@ -1,4 +1,4 @@
-package lesson_0701;
+package lesson_07_1;
 
 public class RobotDog {
 
