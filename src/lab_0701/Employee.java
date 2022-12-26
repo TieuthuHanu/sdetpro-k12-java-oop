@@ -2,27 +2,16 @@ package lab_0701;
 
 public class Employee {
 
-    protected double totalSalary;
-    protected int totalNumberEmployee;
+    private int salary;
 
     public Employee() {
-        totalSalary
-        totalNumberEmployee++;
     }
 
-    public double getSalary() {
-        return totalSalary;
+    public int getSalary() {
+        return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getTotalNumberEmployee() {
-        return totalNumberEmployee;
-    }
-
-    public void setTotalNumberEmployee(int totalNumberEmployee) {
-        this.totalNumberEmployee = totalNumberEmployee;
     }
 }
