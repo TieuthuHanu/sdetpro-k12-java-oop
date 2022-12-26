@@ -23,6 +23,7 @@ public class AnimalController {
         Animal horse = new Horse("Horse");
         Animal tiger = new Tiger("Tiger");
         List<Animal> animalList = Arrays.asList(dog, horse, tiger);
+        System.out.println(animalList);
         System.out.println(resultRacing(animalList));
     }
 }
