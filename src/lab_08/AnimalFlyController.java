@@ -10,7 +10,6 @@ import java.util.List;
 public class AnimalFlyController {
 
     public static void result(List<AnimalWithFly> animalList) {
-
         // Add flyable animal to list
         List<AnimalWithFly> animalFlyableList = new ArrayList<>();
         for (AnimalWithFly animal : animalList) {
