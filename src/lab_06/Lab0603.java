@@ -4,14 +4,13 @@ public class Lab0603 {
 
     public static void main(String[] args) {
         String myStr = "100 minutes";
-        String digits = "";
+        String digitsOutput = "";
 
-        for (int index = 0; index < myStr.length(); index++) {
-            char character = myStr.charAt(index);
+        for (char character: myStr.toCharArray()) {
             if (Character.isDigit(character))
-                digits += character;
+                digitsOutput += character;
         }
 
-        System.out.println(digits);
+        System.out.println(digitsOutput);
     }
 }
