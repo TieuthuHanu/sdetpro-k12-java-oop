@@ -1,14 +1,12 @@
 package lab_08;
 
-import java.security.SecureRandom;
-
-public class Animal {
+public class AnimalWithFly {
 
     private String name;
     private int speed;
     private boolean flyable;
 
-    protected Animal(Builder builder) {
+    protected AnimalWithFly(Builder builder) {
         this.name = builder.name;
         this.speed = builder.speed;
         this.flyable = builder.flyable;
@@ -40,30 +38,23 @@ public class Animal {
         private int speed;
         private boolean flyable;
 
-        public void setName(String name) {
+        public Builder setName(String name) {
             this.name = name;
+            return this;
         }
 
-        public void setSpeed(int speed) {
+        public Builder setSpeed(int speed) {
             this.speed = speed;
+            return this;
         }
 
-        public void setFlyable(boolean flyable) {
+        public Builder setFlyable(boolean flyable) {
             this.flyable = flyable;
+            return this;
         }
 
-        public Animal build() {
-            return new Animal(this);
+        public AnimalWithFly build() {
+            return new AnimalWithFly(this);
         }
-    }
-
-    public static void main(String[] args) {
-        Builder animalBuilder = new Builder();
-        animalBuilder.setName("TiTi");
-        animalBuilder.setSpeed(new SecureRandom().nextInt(50));
-        animalBuilder.setFlyable(false);
-
-        Animal meo = animalBuilder.build();
-        System.out.println(meo);
     }
 }
