@@ -1,1 +1,1 @@
-![](../../../../Screen Shot 2022-12-27 at 9.47.48 PM.png)
+[alt text](../../../../Screen Shot 2022-12-27 at 9.47.48 PM.png)
