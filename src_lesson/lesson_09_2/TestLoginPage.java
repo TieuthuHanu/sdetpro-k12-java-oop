@@ -2,7 +2,7 @@ package lesson_09_2;
 
 public class TestLoginPage {
 
-    // IS-A relationship
+    // IS-A Relationship
     public void login(LoginPage loginPage) {
         loginPage.login();
     }
