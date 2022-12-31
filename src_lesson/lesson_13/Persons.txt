@@ -1,0 +1,3 @@
+Nhu, 18, 80000
+Michelle, 19, 90000
+Jennifer, 20, 70000
