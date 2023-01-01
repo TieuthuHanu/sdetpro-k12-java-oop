@@ -18,16 +18,14 @@ public class BookList {
     // 1. Add new book
     public void addNewBook(Book newBook) {
         bookList.add(newBook);
-
+        System.out.println("The book is saved into DB with info: " + newBook.toString());
     }
 
     // 2. Find a book by ISBN
     public void findBook(String ISBN) {
         for (Book book : bookList) {
-            if (ISBN.equals(book.getISBN()))
+            if (book.getISBN().equals(ISBN))
                 System.out.println(book.toString());
-            else
-                System.out.println("The book with ISBN <" + ISBN + "> is not found!");
         }
     }
 

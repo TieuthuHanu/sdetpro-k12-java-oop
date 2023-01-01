@@ -36,7 +36,6 @@ public class TestBookManagement {
                     sc.nextLine();
                     Book newBook = new Book(ISBN, title, author, year);
                     bookListt.addNewBook(newBook);
-                    System.out.println("The book is saved into DB with info: " + newBook.toString());
                     break;
                 case 2: // Find a book by ISBN
                     System.out.print("Please input ISBN: ");
